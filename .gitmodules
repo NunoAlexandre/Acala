@@ -6,7 +6,7 @@
 	url = https://github.com/AcalaNetwork/predeploy-contracts.git
 [submodule "stable-asset"]
 	path = ecosystem-modules/stable-asset
-	url = https://github.com/nutsfinance/stable-asset.git
+	url = https://github.com/NunoAlexandre/stable-asset.git
 [submodule "evm-bench"]
 	path = evm-bench
 	url = https://github.com/AcalaNetwork/evm-bench.git
