@@ -76,7 +76,7 @@ dependencies = [
  "module-evm-utility",
  "module-evm-utility-macro",
  "num_enum",
- "nutsfinance-stable-asset",
+ "nutsfinance-stable-asset 0.1.0",
  "parity-scale-codec",
  "parity-util-mem",
  "scale-info",
@@ -4730,7 +4730,7 @@ dependencies = [
  "module-transaction-pause",
  "module-transaction-payment",
  "module-xcm-interface",
- "nutsfinance-stable-asset",
+ "nutsfinance-stable-asset 0.1.0 (git+https://github.com/NunoAlexandre/stable-asset?rev=bf64a8fcd21097f0e4830912ac62e9c78458df5f)",
  "orml-auction",
  "orml-authority",
  "orml-benchmarking",
@@ -5782,7 +5782,7 @@ dependencies = [
  "module-transaction-pause",
  "module-transaction-payment",
  "module-xcm-interface",
- "nutsfinance-stable-asset",
+ "nutsfinance-stable-asset 0.1.0",
  "orml-auction",
  "orml-authority",
  "orml-benchmarking",
@@ -7116,6 +7116,19 @@ dependencies = [
  "serde",
  "sp-core",
  "sp-io",
+ "sp-runtime",
+ "sp-std",
+]
+
+[[package]]
+name = "nutsfinance-stable-asset"
+version = "0.1.0"
+source = "git+https://github.com/NunoAlexandre/stable-asset?rev=bf64a8fcd21097f0e4830912ac62e9c78458df5f#bf64a8fcd21097f0e4830912ac62e9c78458df5f"
+dependencies = [
+ "frame-support",
+ "frame-system",
+ "parity-scale-codec",
+ "scale-info",
  "sp-runtime",
  "sp-std",
 ]

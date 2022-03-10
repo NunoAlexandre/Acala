@@ -113,7 +113,7 @@ module-xcm-interface = { path = "../../modules/xcm-interface", default-features 
 module-session-manager = { path = "../../modules/session-manager", default-features = false }
 module-relaychain = { path = "../../modules/relaychain", default-features = false, features = ["kusama"] }
 module-idle-scheduler = { path = "../../modules/idle-scheduler", default-features = false }
-nutsfinance-stable-asset = { version = "0.1.0", default-features = false, path = "../../ecosystem-modules/stable-asset/lib/stable-asset", package = "nutsfinance-stable-asset" }
+nutsfinance-stable-asset = { git = "https://github.com/NunoAlexandre/stable-asset", rev = "bf64a8fcd21097f0e4830912ac62e9c78458df5f" }
 primitives = { package = "acala-primitives", path = "../../primitives", default-features = false }
 runtime-common = { path = "../common", default-features = false }
 
